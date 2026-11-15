@@ -15,8 +15,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
-    "assets:decode": "node scripts/decode-assets.mjs",
-    "postinstall": "node scripts/decode-assets.mjs"
+    "assets:fetch": "node scripts/fetch-assets.mjs",
+    "postinstall": "node scripts/fetch-assets.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.965.0",
